@@ -3,6 +3,7 @@
 // ============================================================
 
 // image, text, backrground colour, and 1 shape
+// to submit: link to repo, link to live page, doc of process
 
 // Variables declared outside of setup() and draw() are
 // accessible everywhere in the sketch (global scope).
@@ -17,7 +18,7 @@ let controllerImg;
 function preload() {
   // loadImage() takes a file path relative to index.html
   // The image is stored in the variable so we can use it later
-  controllerImg = loadImage("assets/images/controller.png");
+  controllerImg = loadImage("exit8.jpeg");
 }
 
 // ------------------------------------------------------------
@@ -52,7 +53,7 @@ function setup() {
   // width and height are built-in p5.js variables that
   // always hold the canvas width and height
   fill(180);
-  text("Image loaded from assets/images/", width / 4, 65);
+  text("THIS IS A PICTURE OF THE GAME EXIT 8. IT IS FUN.", width / 4, 65);
   text("Drawn using p5.js shapes", (width / 4) * 3, 65);
 
   // ----------------------------------------------------------
@@ -87,10 +88,10 @@ function setup() {
   // rect(x, y, width, height, cornerRadius)
   // x, y = TOP-LEFT corner of the rectangle
   // The last argument rounds all four corners by that many pixels
-  rect(originX, originY + 15, 300, 200, 40);
+  circle(originX, originY + 15, 300);
 
   // --- Centre touchpad area ---
-  fill(170);
+  fill(50);
   rect(originX + 95, originY + 65, 110, 70, 8);
 
   // --- Left thumbstick ---
