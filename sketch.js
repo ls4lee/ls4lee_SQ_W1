@@ -2,6 +2,8 @@
 // Week 1 Example 1: Images and Shapes
 // ============================================================
 
+// image, text, backrground colour, and 1 shape
+
 // Variables declared outside of setup() and draw() are
 // accessible everywhere in the sketch (global scope).
 let controllerImg;
